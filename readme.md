@@ -89,5 +89,12 @@ agent_executor = AgentExecutor(
 - **Learning Dashboard**: Create a dashboard with charts to visually track learning progress and see popular courses
 - **Smarter Chatbot**: Improve the AI so it can remember conversations and automatically suggest the best courses for each user
 
-## 📸 Screenshots
-
+## docker-image 
+ ```bash
+ docker build -t bosswallah-chatbot:latest .
+ docker tag bosswallah-chatbot:latest srishtigar/bosswallah-chatbot:latest
+ docker push srishtigar/bosswallah-chatbot:latest
+ ```
+```bash
+ docker run -p 8501:8501 srishtigar/bosswallah-chatbot:latest
+ ```

@@ -1,0 +1,15 @@
+# Ignore environment variables
+# This is the most important line to protect your API keys!
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environment folders
+venv/
+.venv/
+
+# Ignore IDE-specific folders
+.vscode/
+.idea/
