@@ -2,7 +2,7 @@
 
 A comprehensive AI chatbot built for the Boss Wallah assignment. It uses a Retrieval-Augmented Generation (RAG) architecture with an agentic framework to provide accurate answers about courses and also search the web for external information.
 
-## ✨ Features
+## Features
 
 - **Dual-Capability Agent**: Intelligently switches between searching a local course database (RAG) and performing a live web search.
 - **High-Fidelity Answers**: Uses FAISS vector search to provide accurate, context-aware answers based on the provided course dataset.
