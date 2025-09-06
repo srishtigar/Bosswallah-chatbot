@@ -1,0 +1,9 @@
+streamlit
+pandas
+langchain
+langchain-google-genai
+langchain-community
+sentence-transformers
+faiss-cpu
+duckduckgo-search
+python-dotenv
